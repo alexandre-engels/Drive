@@ -21,15 +21,11 @@ Outil web d'automatisation pour Google Apps Script conçu pour simplifier la mig
 ## 🚀 Installation & Déploiement
 
 1. Créez un nouveau projet sur [Google Apps Script](https://script.google.com/).
-2. Copiez le contenu des fichiers du dossier `src/` de ce dépôt dans votre projet.
+2. Recopiez chaque fichier dans votre projet, en veillant aux extensions de fichiers.
 3. **Activer l'API Drive** : 
    - Allez dans "Services" (icône + à gauche).
    - Ajoutez "Drive API" et sélectionnez la version **v2**.
 4. **Configuration du Manifeste** :
-   Assurez-vous que votre fichier `appsscript.json` contient les scopes suivants :
-   ```json
-   "oauthScopes": [
-     "https://www.googleapis.com/auth/drive",
-     "https://www.googleapis.com/auth/script.storage",
+Le fichier appscript.json devrait ajouter les permissions nécessaires lors de la première exécution.
      "https://www.googleapis.com/auth/script.container.ui"
    ]
