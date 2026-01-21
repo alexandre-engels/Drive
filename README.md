@@ -9,7 +9,7 @@ Outil web d'automatisation pour Google Apps Script conçu pour simplifier la mig
 - **Support OCR** : Conversion intelligente des images et PDF en texte éditable (Google Docs).
 - **Archivage Propre** : Option pour supprimer ou déplacer les fichiers originaux après conversion.
 - **Interface Moderne** : UI dynamique avec thèmes personnalisables (CSS Custom Properties).
-
+- **Compatibilité Clasp** : Déploiement GAS simplifié depuis Clasp : https://github.com/google/clasp
 ## 🛠️ Architecture Technique
 
 | Composant | Technologie | Rôle |
